@@ -9,6 +9,9 @@ import ConfirmButton from "./4차시/ConfirmButton";
 import LandingPage from "./4차시/LandingPage";
 import AttendanceBook from "./5차시/AttendanceBook";
 import SignUp from "./5차시/SignUp";
+import Calculator from "./6차시-1/Calculator";
+import ProfileCard from "./6차시-2/ProfileCard";
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -32,10 +35,18 @@ root.render(
   //   <AttendanceBook />
   // </React.StrictMode>
 
+  // <React.StrictMode>
+  //   <SignUp />
+  // </React.StrictMode>
+
   <React.StrictMode>
-    <SignUp />
+  <Calculator />
   </React.StrictMode>
- 
+
+  
+  // <React.StrictMode>
+  // <ProfileCard />
+  // </React.StrictMode>
 );
 
 reportWebVitals();
