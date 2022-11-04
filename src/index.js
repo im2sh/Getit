@@ -13,7 +13,7 @@ import SignUp from "./5차시/SignUp";
 import Calculator from "./6차시-1/Calculator";
 import ProfileCard from "./6차시-2/ProfileCard";
 import DarkOrLight from "./7차시/DarkOrLight";
-
+import Blocks from "./8차시/Blocks";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -50,8 +50,12 @@ root.render(
   // <ProfileCard />
   // </React.StrictMode>
 
+  // <React.StrictMode>
+  //   <DarkOrLight />
+  // </React.StrictMode>
+
   <React.StrictMode>
-    <DarkOrLight />
+    <Blocks />
   </React.StrictMode>
 );
 
