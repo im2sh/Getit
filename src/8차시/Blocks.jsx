@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-//Wrapper 컴포넌트
+
 const Wrapper = styled.div`
     padding: 1rem;
     display: flex;
@@ -10,7 +10,7 @@ const Wrapper = styled.div`
     background-color: lightgrey;
 `;
 
-//Block 컴포넌트
+
 const Block = styled.div`
     padding: ${(props) => props.padding};
     border: 1px solid black;
@@ -22,7 +22,6 @@ const Block = styled.div`
     text-align: center;
 `;
 
-// Wrapper 안에서 3개의 Block 컴포넌트의 props 설정해주는 blockItems 배열로 선언 -> 각 아이템마다 여백, 배경색 props 다르게 줘서 설정
 const blockItems = [
     {
         id: 1,
